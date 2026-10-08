@@ -31,6 +31,8 @@ Follow this for every new or updated image in docs-assets. It keeps the guide lo
 - Final width is 1195 px. Arrow is red, #EF4444.
 - Arrow tail sits on empty space where it can, and the tip lands inside the control, not past it.
 - Do not let the arrow cover the label it points at. Aim at the edge of the control instead.
+- The arrow must never hide any text. Not the label, not a nearby heading, not a value. If the shaft crosses text, move the tail so it comes in from empty space. The tip may touch the control's edge, never the words.
+- Every arrow has the same size on every image: same shaft thickness, same head size, same length range. Never scale an arrow with the image.
 
 ## 5. Captions
 
@@ -44,3 +46,7 @@ Follow this for every new or updated image in docs-assets. It keeps the guide lo
 3. Does the data match the text of the step?
 4. Is the file bigger than 2 KB and listed in the guide?
 5. Write the new file to a temp name, check the size, then rename it. Never write straight over DOCUMENTATION.html.
+- Every image must be exactly 1195 x 928 px. Never a strip, never a long page; scroll the target into view instead.
+- Admin notices (for example the review platform warning) must be hidden in shots; the tool now does it.
+- Untitled test posts must never show: the tool hides '(no title)' rows in admin lists.
+- The blue frame is exactly 56 px on all four sides of every image (window 1083 x 816). Never pad or letterbox; retake the shot at the standard viewport instead.
